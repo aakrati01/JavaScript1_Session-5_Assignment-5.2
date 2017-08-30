@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Character is vowel or consonant </title> <!-- Title on the page -->
+</head>
+<body>
+  <script type="text/javascript">
+        function isVowel(x) /* Function with function name isVowel */
+         {  
+
+          var output;     /* Variable name is result */
+          return /[aeiouAEIOU]/.test(x);
+        }
+
+         var input = '';
+
+         do {
+            input = prompt("Enter a character ");   /* Entering the character from a to z to check it is vowel or consonant */
+            if (input.length == 1)   /* if length of char is one than will check input is vowel or consonant */
+             {
+               alert(isVowel(input));  /* if vowel than true if not than false */
+            }
+          } while (input.length != 1);
+        
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
